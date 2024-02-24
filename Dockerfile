@@ -14,7 +14,7 @@ RUN apt-get update && apt-get install -y libgl1-mesa-glx
 
 
 # Make port 80 available to the world outside this container
-EXPOSE 80
+EXPOSE 5000
 
 # Run app.py when the container launches
 CMD ["python", "main.py"]
